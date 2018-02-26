@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    /* Style mobile first */
+
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    /* Style responsive */
+
+    @media(min-width: 700px) {
+      .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+      }
+
+      .container div {
+        max-width: 400px;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="foto-1"><img src="./img/cowboys--480-hoog.jpg" alt=""></div>
+    <div class="foto-2"><img src="./img/IMG_0117--thumb.jpg" alt=""></div>
+    <div class="foto-3"><img src="./img/koor(1)--thumb.jpg" alt=""></div>
+    <div class="foto-4"><img src="./img/koor(9)--thumb.jpg" alt=""></div>
+    <div class="foto-5"><img src="./img/P1220752--thumb.jpg" alt=""></div>
+    <div class="foto-6"><img src="./img/P1220754--thumb.jpg" alt=""></div>
+    <div class="foto-7"><img src="./img/P1220755--thumb.jpg" alt=""></div>
+    <div class="foto-8"><img src="./img/P1220761--1920.jpg" alt=""></div>
+    <div class="foto-9"><img src="./img/P1220777--thumb.jpg" alt=""></div>
+    <div class="foto-10"><img src="./img/P1220783--thumb.jpg" alt=""></div>
+    <div class="foto-11"><img src="./img/P1220786--thumb.jpg" alt=""></div>
+    <div class="foto-12"><img src="./img/SDC11647--thumb.jpg" alt=""></div>
+  </div>
+</body>
+</html>
